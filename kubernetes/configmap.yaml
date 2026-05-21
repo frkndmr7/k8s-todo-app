@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: todo-config
+  labels:
+    app: todo-app
+data:
+  DB_HOST: "postgres-service"
+  DB_NAME: "tododb"
+  DB_USER: "postgres"
+  DB_PORT: "5432"
+  API_URL: "http://api-service:8080"
