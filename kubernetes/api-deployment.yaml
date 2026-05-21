@@ -33,7 +33,7 @@ spec:
       containers:
       - name: api
         image: todo-api:v1
-        imagePullPolicy: Never  # Minikube local image için
+        imagePullPolicy: Never
         ports:
         - containerPort: 8080
           name: http

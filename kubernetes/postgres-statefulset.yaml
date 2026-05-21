@@ -8,7 +8,7 @@ spec:
   ports:
   - port: 5432
     name: postgres
-  clusterIP: None  # Headless service for StatefulSet
+  clusterIP: None
   selector:
     app: postgres
 ---
