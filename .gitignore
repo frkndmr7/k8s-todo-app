@@ -1,3 +1,8 @@
+kubernetes/secret.yaml
+**/secret.yaml
+*.secret.yaml
+
+
 .env
 .env.local
 .env.*.local
